@@ -23,25 +23,25 @@ class _ResponsiidadeMediaQueryState extends State<ResponsiidadeMediaQuery> {
       body: Row(
         children: [
           Container(
-            height: responsividadeHeigt - responsiidadeAppBar - responsiidadeBarraStatus,
+            height: responsividadeHeigt - responsiidadeAppBar ,
             width: responsividadeWidth,
             color: Colors.amber,
 
           ),
           Container(
-            height: responsividadeHeigt - responsiidadeAppBar - responsiidadeBarraStatus,
+            height: responsividadeHeigt - responsiidadeAppBar,
             width: responsividadeWidth,
             color: Colors.red,
 
           ),
           Container(
-            height: responsividadeHeigt - responsiidadeAppBar - responsiidadeBarraStatus,
+            height: responsividadeHeigt - responsiidadeAppBar,
             width: responsividadeWidth,
             color: Colors.black,
 
           ),
           Container(
-            height: responsividadeHeigt - responsiidadeAppBar - responsiidadeBarraStatus,
+            height: responsividadeHeigt - responsiidadeAppBar,
             width: responsividadeWidth,
             color: Colors.blue
 
