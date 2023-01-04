@@ -46,7 +46,7 @@ class _ResponsividadeRowEColumnUsandoExpandedState extends State<ResponsividadeR
                 ),
                 Expanded(
                   child: Container(
-                    color: Colors.indigogi,
+                    color: Colors.indigo,
                   )
                 )
               ]
