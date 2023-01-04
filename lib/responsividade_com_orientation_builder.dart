@@ -64,7 +64,6 @@ class _ResponsividadeComOrientationBuilderState extends State<ResponsividadeComO
               ),
             ],
             );
-
         }
         )
     );

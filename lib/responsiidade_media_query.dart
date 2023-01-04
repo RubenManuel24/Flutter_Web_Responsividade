@@ -13,7 +13,7 @@ class _ResponsiidadeMediaQueryState extends State<ResponsiidadeMediaQuery> {
 
     var responsividadeHeigt = MediaQuery.of(context).size.height;
     var responsividadeWidth = MediaQuery.of(context).size.width * 0.25;
-    var responsiidadeAppBar = AppBar().preferredSize.height;
+    var responsividadeAppBar = AppBar().preferredSize.height;
     var responsiidadeBarraStatus = MediaQuery.of(context).padding.top;
 
     return Scaffold(
