@@ -25,7 +25,7 @@ class _ResponsiidadeMediaQueryState extends State<ResponsiidadeMediaQuery> {
           Container(
             height: responsividadeHeigt - responsividadeAppBar ,
             width: responsividadeWidth,
-            color: Colors.amber,
+            color: Colors.yellow
 
           ),
           Container(
