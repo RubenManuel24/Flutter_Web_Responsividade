@@ -20,14 +20,14 @@ class _LayoutBuilderRegrasDeLayoutState extends State<LayoutBuilderRegrasDeLayou
         child: LayoutBuilder(
           builder: (context, constraints){
             var tamanho = constraints.maxHeight;
-            //print("Tamanho do Container :$tamanho ");
+            print("Tamanho do Container :$tamanho ");
              
-             if(tamanho <= 600){
+             if(tamanho == 564){
                 return Center(
                   child: Text("Celular"),
                   );
              }
-             else if(tamanho > 600 || tamanho <= 960){
+             else if(tamanho == 580){
                 return Center(
                   child: Text("Celular maior e Tablet"),
                   );
